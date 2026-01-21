@@ -11,7 +11,9 @@
 <div class="flex min-h-[75vh] flex-col gap-8 pt-48" id="about">
 	<div class="flex flex-col items-center justify-center gap-8">
 		<img
-			src="/images/atadanicen.jpeg"
+			src="/images/atadanicen.webp"
+			loading="eager"
+			fetchpriority="high"
 			alt="atadanicen"
 			class="size-52 object-cover duration-300 hover:-rotate-3"
 		/>

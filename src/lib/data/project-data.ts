@@ -37,7 +37,7 @@ const projectsData: ProjectItem[] = [
 		techStack: ['Python', 'CrewAI', 'Ollama', 'Streamlit'],
 		githubUrl: 'https://github.com/atadanicen/travel-planner',
 		liveUrl: 'https://lightning.ai/atadanicen/studios/ai-travel-planner-crewai-ollama',
-		image: '/images/travel-planner.png'
+		image: '/images/travel-planner.webp'
 	},
 
 	{
@@ -53,7 +53,7 @@ const projectsData: ProjectItem[] = [
 		techStack: ['Python', 'Stable Diffusion', 'FastAPI', 'Streamlit'],
 		githubUrl: 'https://github.com/atadanicen/realistic-photo-generator',
 		liveUrl: 'https://lightning.ai/atadanicen/studios/generative-ai-photo-generator',
-		image: '/images/photo-generator.png'
+		image: '/images/photo-generator.webp'
 	},
 	{
 		id: 'near-earth-observation',
@@ -68,7 +68,7 @@ const projectsData: ProjectItem[] = [
 		techStack: ['Python', 'Streamlit', 'NASA NEO API', 'Pandas'],
 		githubUrl: 'https://github.com/atadanicen/near-earth-observation',
 		liveUrl: 'https://near-earth-observation.streamlit.app',
-		image: '/images/near-earth-observation.png'
+		image: '/images/near-earth-observation.webp'
 	},
 	{
 		id: 'currency-minds',
@@ -83,7 +83,7 @@ const projectsData: ProjectItem[] = [
 		techStack: ['Python', 'Streamlit', 'Frankfurter API', 'Pandas'],
 		githubUrl: 'https://github.com/atadanicen/currency-minds',
 		liveUrl: 'https://currency-minds.streamlit.app',
-		image: '/images/currency-minds.png'
+		image: '/images/currency-minds.webp'
 	},
 
 	{
@@ -125,7 +125,7 @@ const projectsData: ProjectItem[] = [
 			'Visualized predictions in real time with Streamlit'
 		],
 		techStack: ['Python', 'PyTorch', 'OpenCV', 'Streamlit'],
-		image: '/images/trajectory-prediction.png'
+		image: '/images/trajectory-prediction.webp'
 	}
 ];
 
