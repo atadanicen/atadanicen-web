@@ -10,7 +10,7 @@
 
 <svelte:head>
 	<title>atadanicen</title>
-	<link rel="icon" type="image/svg+xml" href="/src/lib/assets/ai-icon.svg" />
+	<link rel="icon" type="image/svg+xml" href="/images/ai-icon.svg" />
 </svelte:head>
 <ModeWatcher />
 <div class="flex min-h-screen flex-col font-custom">
