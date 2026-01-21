@@ -11,7 +11,7 @@
 <div class="flex min-h-[75vh] flex-col gap-8 pt-48" id="about">
 	<div class="flex flex-col items-center justify-center gap-8">
 		<img
-			src="src/lib/assets/atadanicen.jpeg"
+			src="/images/atadanicen.jpeg"
 			alt="atadanicen"
 			class="size-52 object-cover duration-300 hover:-rotate-3"
 		/>
@@ -19,7 +19,7 @@
 		<div class="flex w-full flex-col justify-center">
 			<div class="relative h-20 w-full overflow-hidden">
 				<VideoText
-					src="src/lib/assets/horses.webm"
+					src="/images/horses.webm"
 					content="Atadan Icen"
 					fontSize={isMobile.current ? '60' : '80'}
 				></VideoText>

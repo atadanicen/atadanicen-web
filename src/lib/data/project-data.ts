@@ -22,9 +22,7 @@ const projectsData: ProjectItem[] = [
 			'Improved retrieval quality using agentic RAG techniques'
 		],
 		techStack: ['Next.js', 'Convex', 'LanceDB', 'FastAPI', 'RAG', 'LangChain'],
-		featured: true,
-		image:
-			'https://fastly.picsum.photos/id/2/5000/3333.jpg?hmac=_KDkqQVttXw_nM-RyJfLImIbafFrqLsuGO5YuHqD-qQ'
+		featured: true
 	},
 	{
 		id: 'ai-travel-planner',
@@ -39,7 +37,7 @@ const projectsData: ProjectItem[] = [
 		techStack: ['Python', 'CrewAI', 'Ollama', 'Streamlit'],
 		githubUrl: 'https://github.com/atadanicen/travel-planner',
 		liveUrl: 'https://lightning.ai/atadanicen/studios/ai-travel-planner-crewai-ollama',
-		image: 'src/lib/assets/travel-planner.png'
+		image: '/images/travel-planner.png'
 	},
 
 	{
@@ -55,7 +53,7 @@ const projectsData: ProjectItem[] = [
 		techStack: ['Python', 'Stable Diffusion', 'FastAPI', 'Streamlit'],
 		githubUrl: 'https://github.com/atadanicen/realistic-photo-generator',
 		liveUrl: 'https://lightning.ai/atadanicen/studios/generative-ai-photo-generator',
-		image: 'src/lib/assets/photo-generator.png'
+		image: '/images/photo-generator.png'
 	},
 	{
 		id: 'near-earth-observation',
@@ -70,7 +68,7 @@ const projectsData: ProjectItem[] = [
 		techStack: ['Python', 'Streamlit', 'NASA NEO API', 'Pandas'],
 		githubUrl: 'https://github.com/atadanicen/near-earth-observation',
 		liveUrl: 'https://near-earth-observation.streamlit.app',
-		image: 'src/lib/assets/near-earth-observation.png'
+		image: '/images/near-earth-observation.png'
 	},
 	{
 		id: 'currency-minds',
@@ -85,7 +83,7 @@ const projectsData: ProjectItem[] = [
 		techStack: ['Python', 'Streamlit', 'Frankfurter API', 'Pandas'],
 		githubUrl: 'https://github.com/atadanicen/currency-minds',
 		liveUrl: 'https://currency-minds.streamlit.app',
-		image: 'src/lib/assets/currency-minds.png'
+		image: '/images/currency-minds.png'
 	},
 
 	{
@@ -127,7 +125,7 @@ const projectsData: ProjectItem[] = [
 			'Visualized predictions in real time with Streamlit'
 		],
 		techStack: ['Python', 'PyTorch', 'OpenCV', 'Streamlit'],
-		image: 'src/lib/assets/trajectory-prediction.png'
+		image: '/images/trajectory-prediction.png'
 	}
 ];
 
