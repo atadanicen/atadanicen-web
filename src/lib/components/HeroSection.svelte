@@ -19,7 +19,7 @@
 		<div class="flex w-full flex-col justify-center">
 			<div class="relative h-20 w-full overflow-hidden">
 				<VideoText
-					src="src/lib/assets/output-hero.webm"
+					src="src/lib/assets/horses.webm"
 					content="Atadan Icen"
 					fontSize={isMobile.current ? '60' : '80'}
 				></VideoText>
