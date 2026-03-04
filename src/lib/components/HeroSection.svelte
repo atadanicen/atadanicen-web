@@ -1,7 +1,7 @@
 <script>
 	import socialMediaData from '$lib/data/social-media-data';
 	import { IsMobile } from '$lib/hooks/is-mobile.svelte';
-	import { MoveDown, MoveDownIcon } from '@lucide/svelte';
+	import { MoveDownIcon } from '@lucide/svelte';
 	import Button from './ui/button/button.svelte';
 	import VideoText from './VideoText.svelte';
 
@@ -15,7 +15,7 @@
 			loading="eager"
 			fetchpriority="high"
 			alt="atadanicen"
-			class="size-52 object-cover duration-300 hover:-rotate-3"
+			class="size-52 object-cover duration-300 hover:-rotate-3 rounded-lg"
 		/>
 
 		<div class="flex w-full flex-col justify-center">
