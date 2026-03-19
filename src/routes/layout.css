@@ -125,3 +125,10 @@
 	/* ... existing variables ... */
 	--font-custom: 'Inter', sans-serif;
 }
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
