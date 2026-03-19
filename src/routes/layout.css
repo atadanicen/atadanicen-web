@@ -131,4 +131,6 @@
   animation: none;
   mix-blend-mode: normal;
 }
-
+html {
+  scroll-behavior: smooth;
+}

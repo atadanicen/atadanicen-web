@@ -1,11 +1,11 @@
 <script lang="ts">
-	import ThemeToggle from './ThemeToggle.svelte';
+	import { resolve } from '$app/paths';
+	import navbarData from '$lib/data/navbar-data';
 	import { IsMobile } from '$lib/hooks/is-mobile.svelte';
 	import { HamburgerIcon, X } from '@lucide/svelte';
+	import { fade, fly } from 'svelte/transition';
+	import ThemeToggle from './ThemeToggle.svelte';
 	import { Button } from './ui/button';
-	import { fly, fade } from 'svelte/transition';
-	import navbarData from '$lib/data/navbar-data';
-
 	const isMobile = new IsMobile();
 	let isOpen = $state(false);
 
@@ -19,7 +19,7 @@
 </script>
 
 <div class="flex items-center justify-between rounded bg-background/80 p-4">
-	<h1 class="scroll-m-20 text-2xl font-semibold tracking-tight"><a href="/">Atadan Icen</a></h1>
+	<h1 class="scroll-m-20 text-2xl font-semibold tracking-tight"><a href={resolve('/')}>Atadan Icen</a></h1>
 
 	<div class="flex items-center gap-6">
 		{#if isMobile.current}
@@ -66,7 +66,7 @@
 </div>
 
 {#snippet NavLinks()}
-	{#each navbarData as item}
+	{#each navbarData as item (item.href)}
 		<a
 			href={item.href}
 			class="group relative font-medium tracking-wide text-muted-foreground transition-colors hover:text-primary"
