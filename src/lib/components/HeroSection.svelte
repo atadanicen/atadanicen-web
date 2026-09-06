@@ -24,18 +24,15 @@
 					src="/images/horses.webm"
 					content="Atadan Icen"
 					fontSize={isMobile.current ? '60' : '80'}
-				></VideoText>
+				/>
 			</div>
 			<p class="text-center text-xl text-muted-foreground">
 				Ex-Jotform | Full-Stack Engineer & AI Engineer.
 			</p>
 		</div>
-		<!-- <h1 class="max-w-2xl text-center text-3xl font-semibold tracking-tight text-pretty lg:text-4xl">
-			Building Intelligence through <span class="text-primary italic">Constant Refinement.</span>
-		</h1> -->
 
 		<div class="flex items-center gap-4">
-			{#each socialMediaData as item}
+			{#each socialMediaData as item (item.href)}
 				<Button variant="ghost" href={item.href} target="_blank" title={item.title}>
 					<svelte:component this={item.icon} class="size-6" />
 				</Button>
