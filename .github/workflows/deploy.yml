@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - main
+      - master
 
 permissions:
   id-token: write
@@ -29,5 +29,5 @@ jobs:
             -H "x-api-key: ${{ secrets.DOKPLOY_API_KEY }}" \
             -H "content-type: application/json" \
             -d '{
-              "applicationId": "${{ secrets.DOKPLOY_APPLICATION_ID }}"
+              "applicationId": "${{ vars.DOKPLOY_APPLICATION_ID }}"
             }'
